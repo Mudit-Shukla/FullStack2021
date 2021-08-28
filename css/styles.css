@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C9CCD5;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.card{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.container .card .img_card img{
+    width: 100%;
+}
+
+.container .card .content p{
+    text-align: justify;
+}
+
+.container.card .content h3{
+    text-align: center;
+}
