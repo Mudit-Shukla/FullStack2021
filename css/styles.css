@@ -29,6 +29,25 @@ body{
     text-align: justify;
 }
 
-.container.card .content h3{
+.container .card .content h3{
     text-align: center;
+}
+
+.container .card .read_more{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px auto ;
+}
+
+.container .card .read_more:hover{
+    background-color: blue;
+}
+
+.container .card .read_more a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
 }
