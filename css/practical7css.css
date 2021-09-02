@@ -52,12 +52,11 @@
 }
 .content {
     display: flex;
-    margin-bottom: 20px;
     padding-top: 20px;
 }
 .main-content {
     width: 45%;
-    background-color: #343A40;
+    background-color: #30475E;
     text-align: center;
     height: 500px;
     margin-right: 10px;
@@ -72,7 +71,7 @@
 }
 .part {
     height: 160px;
-    background-color: #F55C47;
+    background-color: #F88F01;
 }
 .part h1 {
     text-align: center;
@@ -81,5 +80,34 @@
 }
 #part1, #part2 {
     margin-bottom: 10px;
+}
+
+.section3 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    padding: 1% 8%;
+}
+.squares{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    background-color: tomato;
+    margin: 20px;
+    border-radius: 3%;
+}
+
+.footer{
+    background-color: violet;
+    height: 80px;
+    text-align: center;
+}
+
+.footer h1{
+    line-height: 80px;
 }
 
