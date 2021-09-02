@@ -25,3 +25,22 @@
     line-height: 100vh;
 }
 
+.section1{
+    height: 40vh;
+    background-color: #F4F9F9;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section1 h1{
+    padding-top: 20px;
+}
+
+.section1 .circles{
+    display: inline-block;
+    background-color: #F9B208;
+    height: 60%;
+    width: 15%;
+    margin: 50px;
+    border-radius: 100%;
+}
