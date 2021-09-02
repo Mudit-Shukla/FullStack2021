@@ -44,3 +44,42 @@
     margin: 50px;
     border-radius: 100%;
 }
+
+
+.section-2 h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.content {
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.main-content {
+    width: 45%;
+    background-color: #343A40;
+    text-align: center;
+    height: 500px;
+    margin-right: 10px;
+}
+.main-content h1 {
+    color: white;
+    line-height: 500px;
+}
+.parts {
+    width: 55%;
+    height: 500px;
+}
+.part {
+    height: 160px;
+    background-color: #F55C47;
+}
+.part h1 {
+    text-align: center;
+    color: white;
+    line-height: 130px;
+}
+#part1, #part2 {
+    margin-bottom: 10px;
+}
+
