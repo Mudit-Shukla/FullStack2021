@@ -48,16 +48,15 @@
 }
 
 .team{
-    height: 35vh;
-    background-color: #628395;
+    height: fit-content;
     text-align: center;
     padding-bottom: 30px;
 }
 
+
 .team h1{
     font-size: 40px;
     padding-top: 20px;
-    color: white;
 }
 
 .team .circles{
