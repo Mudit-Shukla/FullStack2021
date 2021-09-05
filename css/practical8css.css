@@ -230,14 +230,14 @@ a{
 }
 
 .footer{
-    height: 90px;
+    height: 120px;
     background-color: hsl(220, 22%, 35%);
     text-align: center;
     padding-top: 10px;
+    color: white;
 }
 
 .footer h2{
-    color: white;
     margin-bottom: 10px 0;
 }
 
@@ -256,4 +256,12 @@ a{
     text-decoration: none;
     font-size: 20px;
     color: white;
+}
+
+.footer ul li a i{
+    margin-right: 10px;
+}
+
+.footer p{
+    margin-top: 10px;
 }
