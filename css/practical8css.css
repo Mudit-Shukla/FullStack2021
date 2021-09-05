@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     height: fit-content;
     background-color: hsl(220, 22%, 35%);
@@ -88,7 +92,6 @@
 
 .about_us h1 {
     text-align: center;
-    padding-top: 20px;
     font-size: 35px;
 }
 .content {
@@ -102,15 +105,16 @@
     height: 500px;
     margin-right: 10px;
 }
-.main-content h1, p {
+.main-content h1 {
     color: white;
-    margin: 0;
     padding: 0;
     margin: 20px;
 }
 
 .main-content p{
     font-size: 17px;
+    color: white;
+    padding: 30px;
 }
 .parts {
     width: 55%;
@@ -142,4 +146,85 @@
 }
 
 
+.heading{
+    margin-top: 2%;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
 
+.technologies{
+    background-color: #C9CCD5;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.card{
+    width: 25%;
+    padding: 20px 20px 10px 20px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container .content{
+    display: block;
+}
+
+.container .card .img_card img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.container .card .content p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.container .card .content h3{
+    text-align: center;
+}
+
+.container .card .read_more{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto ;
+    margin-top: 15px;
+}
+
+.container .card .read_more:hover{
+    background-color: blue;
+}
+
+.container .card .read_more a div{
+    font-size: larger;
+    color: white;
+}
+
+.description{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description img{
+    width: 500px;
+    height: 300px;
+    margin:20px;
+}
+
+.description p{
+    padding: 0 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
