@@ -228,3 +228,32 @@ a{
     text-align: justify;
     margin-bottom: 5%;
 }
+
+.footer{
+    height: 90px;
+    background-color: hsl(220, 22%, 35%);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer h2{
+    color: white;
+    margin-bottom: 10px 0;
+}
+
+.footer ul{
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer ul li{
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
