@@ -46,3 +46,44 @@
     font-size: 40px;
     color: white;
 }
+
+.team{
+    height: 35vh;
+    background-color: #628395;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.team h1{
+    font-size: 40px;
+    padding-top: 20px;
+    color: white;
+}
+
+.team .circles{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team #user1{
+    background-image: url("../images/user1.png");
+}
+
+.team #user2{
+    background-image: url("../images/user2.png");
+}
+
+.team #user3{
+    background-image: url("../images/user3.png");
+}
+
+.team #user4{
+    background-image: url("../images/user4.jpg");
+}
+
