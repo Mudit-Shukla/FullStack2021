@@ -6,8 +6,10 @@
 
 .header{
     height: fit-content;
-    background-color: #45526C;
+    background-color: hsl(220, 22%, 35%);
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .header ul li{
@@ -29,4 +31,18 @@
 .header li a:hover{
     background-color: white;
     color: black;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url("../images/banner_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.banner h1{
+    padding: 20px;
+    font-size: 40px;
+    color: white;
 }
