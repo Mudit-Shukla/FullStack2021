@@ -230,11 +230,11 @@ a{
 }
 
 .footer{
-    height: 120px;
+    height: 150px;
     background-color: hsl(220, 22%, 35%);
-    text-align: center;
     padding-top: 10px;
     color: white;
+    text-align: center;
 }
 
 .footer h2{
@@ -264,4 +264,11 @@ a{
 
 .footer p{
     margin-top: 10px;
+}
+
+.footer a{
+    float: right;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    color: white;
 }
