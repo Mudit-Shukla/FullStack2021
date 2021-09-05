@@ -86,3 +86,60 @@
     background-image: url("../images/user4.jpg");
 }
 
+.about_us h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.content {
+    display: flex;
+    padding-top: 20px;
+}
+.main-content {
+    width: 45%;
+    background-color: #30475E;
+    text-align: justify;
+    height: 500px;
+    margin-right: 10px;
+}
+.main-content h1, p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+}
+
+.main-content p{
+    font-size: 17px;
+}
+.parts {
+    width: 55%;
+    height: 500px;
+}
+.part {
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.part h1 {
+    text-align: center;
+    color: white;
+    line-height: 130px;
+}
+#part1, #part2 {
+    margin-bottom: 10px;
+}
+
+#part1{
+    background-image: url("../images/project1.jpg");
+}
+#part2{
+    background-image: url("../images/project2.jpg");
+}
+#part3{
+    background-image: url("../images/project3.jpg");
+}
+
+
+
