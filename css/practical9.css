@@ -17,7 +17,7 @@ a{
     height: 80px;
     background-color: hsl(220, 22%, 35%);
     text-align: right;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -326,7 +326,12 @@ label #btn, label #cancel{
     }
 
     .header{
-        position: static;
+        height: 80px;
+        background-color: hsl(220, 22%, 35%);
+        text-align: right;
+        position: sticky;
+        top: 0;
+        width: 100%;
     }
 
     .header label #btn{
