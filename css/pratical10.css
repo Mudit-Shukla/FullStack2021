@@ -24,3 +24,18 @@
     font-size: 35px;
     color: white;
 }
+
+.content{
+    padding: 30px;
+    text-align: center;
+}
+
+.content img{
+    height: 500px;
+    width: 900px;
+}
+
+.content p{
+    text-align: justify;
+    padding-top: 20px;
+}
