@@ -10,13 +10,12 @@ a{
     color: black;
 }
 
-
-
 table{
+    
     border: 2px solid;
     border-top: transparent;
     border-collapse:collapse;
-    margin: auto;  
+    margin: 50px auto;  
     font-size: 18px;
     border-radius: 5px;
     font-weight: 500;
@@ -36,12 +35,12 @@ thead{
     color: white;
 }
 
-tr:hover{
-    background-image: linear-gradient(to right, #D7E9F7 5%, #ffff);
-}
-
 thead:hover{
     color: #150050;
+}
+
+tr:hover{
+    background-image: linear-gradient(to right, #D7E9F7 5%, #ffff);
 }
 
 tr{
@@ -70,6 +69,20 @@ td, th{
     color: green;
 }
 
-tr:nth-child(11) .status{
+tr:nth-child(11) .status, tr:nth-child(12) .status{
+    color: red;
+}
+
+ 
+i{
+    padding: 5px;
+    cursor: pointer;
+} 
+
+.fa-pen:hover{
+    color: blue;
+}
+
+.fa-trash-alt:hover{
     color: red;
 }
