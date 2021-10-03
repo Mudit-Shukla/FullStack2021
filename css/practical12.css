@@ -10,6 +10,8 @@ a{
     color: black;
 }
 
+
+
 table{
     border: 2px solid;
     border-top: transparent;
@@ -17,6 +19,7 @@ table{
     margin: auto;  
     font-size: 18px;
     border-radius: 5px;
+    font-weight: 500;
 }
 
 
@@ -24,7 +27,7 @@ caption{
     font-size: 30px;
     background-color : #150050;
     color: white;
-    padding-bottom: 10px;
+    padding: 12px;
 }
 
 thead{
@@ -33,14 +36,21 @@ thead{
     color: white;
 }
 
-tr{
-    border-bottom: 1px solid #889EAF;
-}
-
 tr:hover{
     background-image: linear-gradient(to right, #D7E9F7 5%, #ffff);
 }
 
+thead:hover{
+    color: #150050;
+}
+
+tr{
+    border-bottom: 1px solid #889EAF;
+}
+
+td{
+    height: 60px;
+}
 
 td, th{
     padding: 10px 20px;
@@ -48,5 +58,18 @@ td, th{
 }
 
 .name{
-    width: 600px;
+    width: 500px;
+}
+
+.link, .status, .modify{
+    text-align: center;
+    width: 160px;
+}
+
+.status{
+    color: green;
+}
+
+tr:nth-child(11) .status{
+    color: red;
 }
