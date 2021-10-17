@@ -69,10 +69,13 @@ td, th{
     color: green;
 }
 
-tr:nth-child(11) .status, tr:nth-child(12) .status{
+/* tr:nth-child(11) .status, tr:nth-child(12) .status{
+    color: red;
+} */
+
+tr:last-child .status{
     color: red;
 }
-
  
 i{
     padding: 5px;
