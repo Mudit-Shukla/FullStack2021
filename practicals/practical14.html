@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="../css/practical14.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="header">Counter</h1>
+    <div class="container">
+        <button id="add" onclick="add()"><i class="fas fa-plus"></i></button>
+        <span id="value">0</span>
+        <button id="sub" onclick="sub()"><i class="fas fa-minus"></i></button>
+    </div>
+    <script>
+        let count = 0;
+        let value = document.getElementById('value');
+        if (value.innerText == 0)
+            document.getElementById('sub').disabled = true;
+        function add() {
+            count++;
+            value.innerText = count;
+            document.getElementById('sub').disabled = false;
+        }
+
+        function sub() {
+            if (value.innerText > 0)
+                document.getElementById('sub').disabled = false;
+            count--;
+            value.innerText = count;
+            if (value.innerText == 0) {
+                document.getElementById('sub').disabled = true;
+            }
+        }
+    </script>
+</body>
+
+</html>
